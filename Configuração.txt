@@ -1,0 +1,10 @@
+PASSOS
+
+FAZER ISSO TODAS AS VEZES QUE LIGAR O COMPUTADOR E FOR USAR O cmd
+
+1. entrar no cmd como administrador
+2. digitar:
+> cd \ (enter)
+> cd \users\marilia sarmento\desktop\djangogirls\ (enter)
+> python3 -m venv myvenv (enter) (só faz na primeira vez)
+> myvenv\scripts\activate.bat (enter)

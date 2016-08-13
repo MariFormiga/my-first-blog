@@ -1,0 +1,270 @@
+Microsoft Windows [versão 10.0.10586]
+(c) 2015 Microsoft Corporation. Todos os direitos reservados.
+
+C:\WINDOWS\system32>path
+PATH=C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Python27
+
+C:\WINDOWS\system32>python3
+'python3' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\WINDOWS\system32>cd \Python34
+
+C:\Python34>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Python34
+
+25/07/2016  14:23    <DIR>          .
+25/07/2016  14:23    <DIR>          ..
+25/07/2016  14:22    <DIR>          DLLs
+25/07/2016  14:23    <DIR>          Doc
+25/07/2016  14:22    <DIR>          include
+25/07/2016  14:22    <DIR>          Lib
+25/07/2016  14:22    <DIR>          libs
+24/02/2015  22:48            31.079 LICENSE.txt
+24/02/2015  22:39           384.270 NEWS.txt
+24/02/2015  22:44            40.960 python.exe
+24/02/2015  22:44            41.472 pythonw.exe
+24/02/2015  22:39             6.954 README.txt
+25/07/2016  14:23    <DIR>          Scripts
+25/07/2016  14:23    <DIR>          tcl
+25/07/2016  14:22    <DIR>          Tools
+               5 arquivo(s)        504.735 bytes
+              10 pasta(s)   124.980.264.960 bytes disponíveis
+
+C:\Python34>copy python.exe python3.exe
+        1 arquivo(s) copiado(s).
+
+C:\Python34>python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+C:\Python34>cd \Python27
+
+C:\Python27>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Python27
+
+24/07/2016  14:18    <DIR>          .
+24/07/2016  14:18    <DIR>          ..
+07/07/2016  13:49    <DIR>          DLLs
+07/07/2016  13:50    <DIR>          Doc
+07/07/2016  13:49    <DIR>          include
+24/07/2016  14:00    <DIR>          Lib
+07/07/2016  13:49    <DIR>          libs
+23/05/2015  10:24            38.584 LICENSE.txt
+23/05/2015  10:23           418.960 NEWS.txt
+23/05/2015  09:40            26.624 python.exe
+23/05/2015  09:40            27.136 pythonw.exe
+10/05/2015  18:01            53.986 README.txt
+24/07/2016  14:18    <DIR>          Scripts
+07/07/2016  13:50    <DIR>          tcl
+07/07/2016  13:50    <DIR>          Tools
+23/05/2015  09:39            49.664 w9xpopen.exe
+               6 arquivo(s)        614.954 bytes
+              10 pasta(s)   124.980.248.576 bytes disponíveis
+
+C:\Python27>copy python.exe python2.exe
+        1 arquivo(s) copiado(s).
+
+C:\Python27>cd "\Users\Marilia Sarmento\Desktop\djangogirls"
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Users\Marilia Sarmento\Desktop\djangogirls
+
+25/07/2016  14:10    <DIR>          .
+25/07/2016  14:10    <DIR>          ..
+               0 arquivo(s)              0 bytes
+               2 pasta(s)   124.979.666.944 bytes disponíveis
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls>python3 -m venv myvenv
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Users\Marilia Sarmento\Desktop\djangogirls
+
+25/07/2016  14:27    <DIR>          .
+25/07/2016  14:27    <DIR>          ..
+25/07/2016  14:27    <DIR>          myvenv
+               0 arquivo(s)              0 bytes
+               3 pasta(s)   124.959.428.608 bytes disponíveis
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls>cd myvenv
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls\myvenv>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Users\Marilia Sarmento\Desktop\djangogirls\myvenv
+
+25/07/2016  14:27    <DIR>          .
+25/07/2016  14:27    <DIR>          ..
+25/07/2016  14:27    <DIR>          Include
+25/07/2016  14:27    <DIR>          Lib
+25/07/2016  14:27                75 pyvenv.cfg
+25/07/2016  14:27    <DIR>          Scripts
+               1 arquivo(s)             75 bytes
+               5 pasta(s)   124.959.428.608 bytes disponíveis
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls\myvenv>cd ..
+
+C:\Users\Marilia Sarmento\Desktop\djangogirls>myvenv\Scripts\activate.bat
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>ls
+'ls' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>pip
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  zip                         DEPRECATED. Zip individual packages.
+  unzip                       DEPRECATED. Unzip individual packages.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring
+                              environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be
+                              used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output.
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form
+                              [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists:
+                              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does
+                              not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file
+                              containing the private key and the certificate
+                              in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine
+                              whether a new version of pip is available for
+                              download. Implied with --no-index.
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>pip install django==1.8.5
+You are using pip version 6.0.8, however version 8.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting django==1.8.5
+  Downloading Django-1.8.5-py2.py3-none-any.whl (6.2MB)
+    100% |################################| 6.2MB 41kB/s
+Installing collected packages: django
+
+Successfully installed django-1.8.5
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>blz
+'blz' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>python3 myvenv\Scripts\django-admin.py startproject mysite
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Users\Marilia Sarmento\Desktop\djangogirls
+
+25/07/2016  14:36    <DIR>          .
+25/07/2016  14:36    <DIR>          ..
+25/07/2016  14:36    <DIR>          mysite
+25/07/2016  14:29    <DIR>          myvenv
+               0 arquivo(s)              0 bytes
+               4 pasta(s)   124.901.371.904 bytes disponíveis
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls>cd mysite
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite
+
+25/07/2016  14:36    <DIR>          .
+25/07/2016  14:36    <DIR>          ..
+25/07/2016  14:36               249 manage.py
+25/07/2016  14:36    <DIR>          mysite
+               1 arquivo(s)            249 bytes
+               3 pasta(s)   124.901.367.808 bytes disponíveis
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite>cd mysite
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é B6CD-E5BB
+
+ Pasta de C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite
+
+25/07/2016  14:36    <DIR>          .
+25/07/2016  14:36    <DIR>          ..
+25/07/2016  14:36             2.638 settings.py
+25/07/2016  14:36               756 urls.py
+25/07/2016  14:36               389 wsgi.py
+25/07/2016  14:36                 0 __init__.py
+               4 arquivo(s)          3.783 bytes
+               2 pasta(s)   124.902.268.928 bytes disponíveis
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>notepad settings.py
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>wordpad settings.py
+'wordpad' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>python2
+Python 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>python2
+Python 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print 'max'
+max
+>>> print('max')
+max
+>>> exit()
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print 'max'
+  File "<stdin>", line 1
+    print 'max'
+              ^
+SyntaxError: Missing parentheses in call to 'print'
+>>> print('max')
+max
+>>> exit()
+
+(myvenv) C:\Users\Marilia Sarmento\Desktop\djangogirls\mysite\mysite>python3
